@@ -113,7 +113,7 @@ type
     Label15: TLabel;
     ActLancamentos: TChangeTabAction;
     TabCategoria: TTabItem;
-    ToolBar3: TToolBar;
+    tlbCatergorias: TToolBar;
     Label16: TLabel;
     btnCategoriasVoltar: TSpeedButton;
     btnCategoriaAdicionar: TSpeedButton;
@@ -653,43 +653,32 @@ end;
 procedure TFrmPrincipal.btnBancoCad_SalvarClick(Sender: TObject);
 begin
 
-//Arrumar
-      if EdtCategoria.Text='' then
+      if EdtBanco.Text='' then
         begin
-              ShowMessage('Informe o nome da categoria!');
-              exit;
-        end;
-      if edtTipo.Text='' then
-        begin
-              ShowMessage('Informe o tipo da categoria!');
-              exit;
-        end else
-      if (edtTipo.Text<>'D')and(edtTipo.Text<>'R') then
-        begin
-              ShowMessage('O tipo da categoria deve ser R ou D!');
+              ShowMessage('Informe o nome do Banco!');
               exit;
         end;
 
-      if dm.qry_categoria.State in dsEditModes then
+      if dm.qry_banco.State in dsEditModes then
       begin
           //Se for novo registro, calcular chave
           if operacao = 'I' then
           begin
               dm.qry_geral.Active := False;
               dm.qry_geral.SQL.Clear;
-              dm.qry_geral.SQL.Add('SELECT IFNULL(MAX(ID_CATEGORIA), 0) AS ID_CATEGORIA FROM TAB_CATEGORIA');
+              dm.qry_geral.SQL.Add('SELECT IFNULL(MAX(ID_BANCO), 0) AS ID_BANCO FROM TAB_BANCO');
               dm.qry_geral.Active := True;
 
-              dm.qry_categoria.FieldByName('ID_CATEGORIA').Value := dm.qry_geral.FieldByName('ID_CATEGORIA').AsInteger + 1;
+              dm.qry_Banco.FieldByName('ID_BANCO').Value := dm.qry_geral.FieldByName('ID_BANCO').AsInteger + 1;
 
           end;
 
 
-          dm.qry_categoria.Post;
+          dm.qry_banco.Post;
 
       end;
 
-      ActCategoria.ExecuteTarget(sender);
+      ActBanco.ExecuteTarget(sender);
 
 
 end;
@@ -1471,7 +1460,6 @@ end;
 
 procedure TFrmPrincipal.btnExcluirBancoClick(Sender: TObject);
 begin
-//arrumar
     MessageDlg('Confirma exclusão?', System.UITypes.TMsgDlgType.mtConfirmation,
     [
       System.UITypes.TMsgDlgBtn.mbYes,
@@ -1482,8 +1470,8 @@ begin
       case AResult of
         mrYES:
           begin
-                dm.qry_categoria.Delete;
-                ActCategoria.ExecuteTarget(sender);
+                dm.qry_banco.Delete;
+                ActBanco.ExecuteTarget(sender);
           end;
       end;
     end);

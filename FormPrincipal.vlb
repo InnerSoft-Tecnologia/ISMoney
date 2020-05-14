@@ -1,125 +1,122 @@
 ﻿[ActLancamentos]
-Coordinates=551,309,97,33
+Coordinates=551,309,110,36
 
 [RectLancMes]
-Coordinates=87,460,80,33
+Coordinates=87,460,93,36
 
 [Label1]
-Coordinates=831,300,46,51
+Coordinates=831,300,53,58
 
 [RctLancBotton]
-Coordinates=951,414,88,33
+Coordinates=951,414,99,36
 
 [Layout1]
-Coordinates=881,414,53,33
+Coordinates=881,414,60,36
 
 [Layout7]
-Coordinates=811,414,53,33
+Coordinates=811,414,60,36
 
 [TabLancamentos]
-Coordinates=688,414,99,33
+Coordinates=688,414,113,36
 
 [Label13]
-Coordinates=584,232,52,51
+Coordinates=584,232,60,58
 
 [Rectangle3]
-Coordinates=400,414,69,33
+Coordinates=400,414,80,36
 
 [Layout5]
-Coordinates=330,414,53,33
+Coordinates=330,414,60,36
 
 [btnAcessar]
-Coordinates=483,300,70,51
+Coordinates=483,300,79,58
 
 [Label15]
-Coordinates=100,300,52,51
+Coordinates=100,300,60,58
 
 [SpeedButton1]
-Coordinates=608,10,84,51
+Coordinates=608,10,96,58
 
 [ActionList]
-Coordinates=0,483,64,33
+Coordinates=0,483,71,36
 
 [TabMain]
-Coordinates=157,414,56,33
+Coordinates=157,414,64,36
 
 [Image1]
-Coordinates=874,232,49,51
+Coordinates=874,232,57,58
 
 [ListBox1]
-Coordinates=60,70,116,177
+Coordinates=60,70,139,212
 
 [ToolBar2]
-Coordinates=80,414,58,33
+Coordinates=80,414,67,36
 
 [Layout3]
-Coordinates=10,414,53,33
+Coordinates=10,414,60,36
 
 [Label10]
-Coordinates=635,300,52,51
+Coordinates=635,300,60,58
 
 [Rectangle2]
-Coordinates=754,368,69,33
+Coordinates=754,368,80,36
 Visible=True
 
 [ImgDespesa]
-Coordinates=714,10,75,51
+Coordinates=714,10,86,58
 
 [ActMain]
-Coordinates=699,496,54,33
+Coordinates=699,496,61,36
 
 [ImgReceita]
-Coordinates=10,300,69,51
+Coordinates=10,300,79,58
 
 [Layout2]
-Coordinates=594,368,53,33
+Coordinates=594,368,60,36
 
 [Image2]
-Coordinates=340,300,49,51
+Coordinates=340,300,57,58
 
 [MultiView]
-Coordinates=514,368,61,33
+Coordinates=514,368,70,36
 
 [BtnMenu]
-Coordinates=407,300,58,51
+Coordinates=407,300,66,58
 
 [Layout6]
-Coordinates=345,368,53,33
+Coordinates=345,368,60,36
 
 [Label2]
-Coordinates=1004,232,46,51
+Coordinates=1004,232,53,58
 
 [StyleBook1]
-Coordinates=423,593,70,33
+Coordinates=423,593,79,36
 
 [TabControl]
-Coordinates=257,368,69,33
+Coordinates=257,368,78,36
 Visible=True
 
 [EdtSenha]
-Coordinates=830,10,61,51
+Coordinates=830,10,71,58
 
 [TabLogin]
-Coordinates=179,368,60,33
+Coordinates=179,368,68,36
 
 [Layout4]
-Coordinates=10,368,53,33
+Coordinates=10,368,60,36
 
 [EdtEmail]
-Coordinates=170,300,58,51
-
-[ToolBar3]
-Coordinates=997,300,58,33
+Coordinates=170,300,66,58
 
 [Label16]
-Coordinates=538,10,52,51
+Coordinates=538,10,60,58
 
 [dm.qry_lancamento]
-Coordinates=280,540,111,33
+Coordinates=280,540,127,36
 Visible=False
 
 [dm.qry_categoria]
-Coordinates=810,10,100,33
+Coordinates=810,10,114,36
 Visible=False
 
 []
@@ -127,439 +124,442 @@ Coordinates=612,80,109,33
 Visible=True
 
 [BindSourceDB1]
-Coordinates=660,460,96,177
+Coordinates=660,460,115,192
 
 [BindingsList1]
-Coordinates=469,80,82,33
+Coordinates=469,80,91,36
 
 [ActCategoriaCad]
-Coordinates=514,485,97,33
+Coordinates=514,485,112,36
 
 [btn_CategoriaCad_Salvar]
-Coordinates=827,152,139,51
+Coordinates=827,152,162,58
 
 [Label18]
-Coordinates=613,466,52,51
+Coordinates=613,466,60,58
 
 [TlbCategoriaCad]
-Coordinates=415,485,96,33
+Coordinates=415,485,112,36
 
 [btn_CategoriaCad_Voltar]
-Coordinates=940,80,137,51
+Coordinates=940,80,160,58
 
 [EdtCategoria]
-Coordinates=700,460,78,51
+Coordinates=700,460,90,58
 
 [ActCategoria]
-Coordinates=336,485,78,33
+Coordinates=336,485,89,36
 
 [TabCategoriaCad]
-Coordinates=227,485,99,33
+Coordinates=227,485,116,36
 
 [lblCategoriaCadtitulo]
-Coordinates=460,160,118,51
+Coordinates=460,160,135,58
 
 [tlbMain]
-Coordinates=10,460,50,33
+Coordinates=10,460,56,36
 
 [edtTipo]
-Coordinates=360,470,51,51
+Coordinates=360,470,57,58
 
 [Label17]
-Coordinates=68,160,52,51
+Coordinates=68,160,60,58
 
 [ListCategorias]
-Coordinates=320,530,89,141
+Coordinates=320,530,107,168
 Visible=True
 
 [btnCategoriaAdicionar]
-Coordinates=449,232,125,51
+Coordinates=449,232,142,58
 
 [btnCategoriasVoltar]
-Coordinates=273,232,112,51
+Coordinates=273,232,128,58
 
 [Imglst]
-Coordinates=19,160,44,33
+Coordinates=19,160,49,36
 
 [imglst_btn]
-Coordinates=131,260,66,33
+Coordinates=131,260,73,36
 
 [dm.]
 Coordinates=300,560,120,33
 Visible=False
 
 [BindSourceDB2]
-Coordinates=400,540,107,249
+Coordinates=400,540,128,300
 
 [lblSoftEVersao]
-Coordinates=10,232,87,51
+Coordinates=10,232,100,58
 
 [btn_voltar_mes]
-Coordinates=787,232,90,51
+Coordinates=787,232,102,58
 
 [btn_prox_mes]
-Coordinates=246,300,84,51
+Coordinates=246,300,96,58
 
 [lblData]
-Coordinates=654,232,48,51
+Coordinates=654,232,55,58
 
 [ListLancamentos]
-Coordinates=110,550,99,231
+Coordinates=110,550,112,278
 Visible=True
 
 [lbl_tot_rec]
-Coordinates=379,232,66,51
+Coordinates=379,232,74,58
 
 [lbl_tot_desp]
-Coordinates=934,10,74,51
+Coordinates=934,10,84,58
 
 [lbl_painel_rec]
-Coordinates=572,300,83,51
+Coordinates=572,300,94,58
 
 [lbl_painel_desp]
-Coordinates=941,232,91,51
+Coordinates=941,232,104,58
 
 [lbl_painel_saldo]
-Coordinates=768,300,94,51
+Coordinates=768,300,107,58
 
 [TabCategoria]
-Coordinates=894,300,80,33
+Coordinates=894,300,92,36
 
 [RectLogin]
-Coordinates=664,368,64,33
+Coordinates=664,368,72,36
 
 [lbl_painel_receitas]
-Coordinates=210,232,106,51
+Coordinates=210,232,122,58
 
 [lbl_painel_despesas]
-Coordinates=724,232,114,51
+Coordinates=724,232,131,58
 
 [lbl_painel_saldogeral]
-Coordinates=705,300,119,51
+Coordinates=705,300,136,58
 
 [item_menu_painel]
-Coordinates=231,414,104,33
+Coordinates=231,414,119,36
 
 [item_menu_lanc]
-Coordinates=490,414,95,33
+Coordinates=490,414,109,36
 Visible=True
 
 [item_menu_perfil]
-Coordinates=844,368,99,33
+Coordinates=844,368,113,36
 
 [item_menu_cat]
-Coordinates=589,414,89,33
+Coordinates=589,414,102,36
 
 [item_menu_banco]
-Coordinates=415,368,104,33
+Coordinates=415,368,120,36
 
 [ListBoxItem16]
-Coordinates=927,854,84,33
+Coordinates=927,854,96,36
 
 [item_ingles]
-Coordinates=913,909,71,33
+Coordinates=913,909,80,36
 
 [ListBoxItem14]
-Coordinates=894,962,84,33
+Coordinates=894,962,96,36
 
 [ToolBar4]
-Coordinates=839,777,58,33
+Coordinates=839,777,67,36
 
 [item_dolar]
-Coordinates=815,962,66,33
+Coordinates=815,962,75,36
 
 [btnIdiomaVoltar]
-Coordinates=893,700,92,51
+Coordinates=893,700,105,58
 
 [btn_senha]
-Coordinates=913,623,65,51
+Coordinates=913,623,74,58
 
 [Label14]
-Coordinates=504,866,52,51
+Coordinates=504,866,60,58
 
 [Label3]
-Coordinates=436,155,46,51
+Coordinates=436,155,53,58
 
 [rect_foto]
-Coordinates=839,832,58,33
+Coordinates=839,832,65,36
 
 [Label19]
-Coordinates=336,866,52,51
+Coordinates=336,866,60,58
 
 [item_senha]
-Coordinates=726,962,71,33
+Coordinates=726,962,81,36
 
 [btn_nome]
-Coordinates=158,866,63,51
+Coordinates=158,866,71,58
 
 [btn_criar_conta]
-Coordinates=126,78,91,51
+Coordinates=126,78,103,58
 
 [TabIdioma]
-Coordinates=647,962,65,33
+Coordinates=647,962,75,36
 
 [dm.qry_perfil]
-Coordinates=161,437,79,51
+Coordinates=161,437,89,58
 
 [edt_cad_descricao]
-Coordinates=893,469,107,51
+Coordinates=893,469,122,58
 
 [fgAction]
-Coordinates=839,887,56,33
+Coordinates=839,887,61,36
 
 [edt_perfil_senha]
-Coordinates=893,229,96,51
+Coordinates=893,229,110,58
 
 [ActFotoLib]
-Coordinates=568,962,68,33
+Coordinates=568,962,76,36
 
 [Label22]
-Coordinates=89,866,52,51
+Coordinates=89,866,60,58
 
 [btn_cad_personalizar]
-Coordinates=775,87,120,51
+Coordinates=775,87,138,58
 
 [btn_perfil_voltar]
-Coordinates=893,546,95,51
+Coordinates=893,546,107,58
 
 [item_real]
-Coordinates=499,962,59,33
+Coordinates=499,962,68,36
 
 [edt_email_cad]
-Coordinates=491,155,85,51
+Coordinates=491,155,98,58
 
 [dm.qry_geral]
-Coordinates=491,423,79,51
+Coordinates=491,423,90,58
 
 [Label11]
-Coordinates=839,623,52,51
+Coordinates=839,623,60,58
 
 [btn_cad_hoje]
-Coordinates=62,437,80,51
+Coordinates=62,437,92,58
 
 [ListBoxItem12]
-Coordinates=400,962,84,33
+Coordinates=400,962,96,36
 
 [TabPerfil]
-Coordinates=331,962,58,33
+Coordinates=331,962,66,36
 
 [ListBox3]
-Coordinates=573,708,116,177
+Coordinates=573,708,139,212
 
 [cmb_cad_banco]
-Coordinates=629,1,95,123
+Coordinates=629,1,108,146
 
 [Item_IdiomaMoeda]
-Coordinates=1138,1,107,33
+Coordinates=1138,1,124,36
 
 [btn_cad_ontem]
-Coordinates=629,166,90,51
+Coordinates=629,166,103,58
 
 [ToolBar6]
-Coordinates=262,962,58,33
+Coordinates=262,962,67,36
 
 [Label20]
-Coordinates=232,534,52,51
+Coordinates=232,534,60,58
 
 [ListBoxItem15]
-Coordinates=163,962,84,33
+Coordinates=163,962,96,36
 
 [btnIdiomaSalvar]
-Coordinates=893,355,94,51
+Coordinates=893,355,108,58
 
 [LstIdioma]
-Coordinates=259,232,116,177
+Coordinates=259,232,139,212
 
 [Rectangle4]
-Coordinates=74,962,69,33
+Coordinates=74,962,80,36
 
 [ListBoxItem13]
-Coordinates=1138,56,84,33
+Coordinates=1138,56,96,36
 
 [Label12]
-Coordinates=41,534,52,51
+Coordinates=41,534,60,58
 
 [Item_nome]
-Coordinates=1138,111,68,33
+Coordinates=1138,111,78,36
 
 [Label21]
-Coordinates=436,1,52,51
+Coordinates=436,1,60,58
 
 [cmb_cad_categoria]
-Coordinates=790,520,110,123
+Coordinates=790,520,126,146
 Visible=True
 
 [btn_canc_conta]
-Coordinates=126,1,92,51
+Coordinates=126,1,105,58
 
 [item_portugues]
-Coordinates=729,785,91,33
+Coordinates=729,785,103,36
 
 [ToolBar1]
-Coordinates=0,926,58,33
+Coordinates=0,926,67,36
 
 [btnExcluirCat]
-Coordinates=927,777,81,51
+Coordinates=927,777,91,58
 
 [btn_Logout]
-Coordinates=0,0,70,51
+Coordinates=0,0,79,58
 
 [ActLogin]
-Coordinates=1053,1,58,33
+Coordinates=1053,1,65,36
 
 [ToolBar7]
-Coordinates=1053,157,58,33
+Coordinates=1053,157,67,36
 
 [edt_cad_valor]
-Coordinates=237,866,83,51
+Coordinates=237,866,95,58
 
 [Layout8]
-Coordinates=1053,355,53,33
+Coordinates=1053,355,60,36
 
 [RectCadConta]
-Coordinates=729,840,85,33
+Coordinates=729,840,98,36
 
 [edt_nome_cad]
-Coordinates=729,708,86,51
+Coordinates=729,708,99,58
 
 [LstMoeda]
-Coordinates=250,1,116,177
+Coordinates=250,1,139,212
 
 [edt_senha_cad]
-Coordinates=436,78,88,51
+Coordinates=436,78,102,58
 
 [ActLancamentoCad]
-Coordinates=1158,166,111,33
+Coordinates=1158,166,127,36
 
 [edt_perfil_nome]
-Coordinates=520,559,93,51
+Coordinates=520,559,107,58
 
 [ActPerfil]
-Coordinates=1053,410,56,33
+Coordinates=1053,410,63,36
 
 [Label9]
-Coordinates=30,866,46,51
+Coordinates=30,866,53,58
 
 [ActIdioma]
-Coordinates=1138,221,64,33
+Coordinates=1138,221,72,36
 
 [ToolBar5]
-Coordinates=1053,465,58,33
+Coordinates=1053,465,67,36
 
 [LancamentoCad]
-Coordinates=1027,520,94,33
+Coordinates=1027,520,108,36
 
 [ActFoto]
-Coordinates=1053,575,53,33
+Coordinates=1053,575,59,36
 
 [ListBox2]
-Coordinates=101,187,116,177
+Coordinates=101,187,139,212
 
 [edt_cad_data]
-Coordinates=1053,630,115,51
+Coordinates=1053,630,138,58
 
 [rect_data]
-Coordinates=1138,353,60,33
+Coordinates=1138,353,68,36
 
 [dm.qry_banco]
-Coordinates=770,20,84,33
+Coordinates=770,20,96,36
 Visible=False
 
 [BindSourceDB3]
-Coordinates=1270,900,92,213
+Coordinates=1270,900,106,236
 
 [btn_cad_lanc_voltar]
-Coordinates=405,866,113,51
+Coordinates=405,866,130,58
 
 [btn_cad_lanc_salvar]
-Coordinates=301,534,115,51
+Coordinates=301,534,132,58
 Visible=True
 
 [fgActionCad]
-Coordinates=704,551,75,33
+Coordinates=704,551,85,36
 
 [fgActionSheet1]
-Coordinates=1027,707,89,33
+Coordinates=1027,707,102,36
 
 [btn_lanc_cad]
-Coordinates=491,87,80,51
+Coordinates=491,87,91,58
 
 [lytSplash]
-Coordinates=770,878,60,33
+Coordinates=770,878,67,36
 
 [btnCadExcluir]
-Coordinates=26,77,84,51
+Coordinates=26,77,95,58
 
 [Image3]
-Coordinates=0,0,49,51
+Coordinates=0,0,57,58
 
 [TabSplash]
-Coordinates=1138,276,66,33
+Coordinates=1138,276,76,36
 
 [rctSplash]
-Coordinates=1083,762,61,33
+Coordinates=1083,762,68,36
 
 [tmrSplash]
-Coordinates=1138,408,64,33
+Coordinates=1138,408,72,36
 
 [TabBancoCad]
-Coordinates=1173,463,83,33
+Coordinates=1173,463,96,36
 
 [ListBancos]
-Coordinates=1410,920,89,141
+Coordinates=1410,920,107,168
 Visible=True
 
 [ActBancoCad]
-Coordinates=1173,518,81,33
+Coordinates=1173,518,93,36
 
 [TabBanco]
-Coordinates=1138,573,64,33
+Coordinates=1138,573,73,36
 
 [ActBanco]
-Coordinates=1083,817,62,33
+Coordinates=1083,817,69,36
 
 [lblBancos]
-Coordinates=796,1000,63,51
+Coordinates=796,1000,70,58
 
 [SpeedButton3]
-Coordinates=598,1000,84,51
+Coordinates=598,1000,96,58
 
 [SpeedButton2]
-Coordinates=697,1000,84,51
+Coordinates=697,1000,96,58
 
 [tbrBancos]
-Coordinates=1138,707,65,33
+Coordinates=1138,707,72,36
 
 [SpeedButton5]
-Coordinates=0,776,84,51
+Coordinates=0,776,96,58
 
 [edtAgencia]
-Coordinates=1020,990,69,51
+Coordinates=1020,990,79,58
 
 [btnExcluirBanco]
-Coordinates=1307,1,96,51
+Coordinates=1307,1,108,58
 
 [edtBanco]
-Coordinates=1270,730,61,51
+Coordinates=1270,730,69,58
 
 [Label7]
-Coordinates=762,157,46,51
+Coordinates=762,157,53,58
 
 [Label5]
-Coordinates=1115,869,46,51
+Coordinates=1115,869,53,58
 
 [Label6]
-Coordinates=1115,939,46,51
+Coordinates=1115,939,53,58
 
 [Label4]
-Coordinates=1115,460,46,51
+Coordinates=1115,460,53,58
 
 [tlbBancoCad]
-Coordinates=256,197,77,33
+Coordinates=256,197,88,36
 
 [btnBancoCad_Salvar]
-Coordinates=1313,71,117,51
+Coordinates=1313,71,136,58
 
 [edtConta]
-Coordinates=1030,1060,58,51
+Coordinates=1030,1060,67,58
+
+[tlbCatergorias]
+Coordinates=997,300,67,36
 
