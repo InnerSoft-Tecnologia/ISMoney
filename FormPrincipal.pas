@@ -88,9 +88,9 @@ type
     ImgReceita: TImage;
     ImgDespesa: TImage;
     MultiView: TMultiView;
-    Rectangle3: TRectangle;
-    Image2: TImage;
-    ListBox1: TListBox;
+    rctMtvLogo: TRectangle;
+    imgMtvLogo: TImage;
+    lstMenu: TListBox;
     item_menu_painel: TListBoxItem;
     item_menu_lanc: TListBoxItem;
     item_menu_cat: TListBoxItem;
@@ -113,7 +113,7 @@ type
     Label15: TLabel;
     ActLancamentos: TChangeTabAction;
     TabCategoria: TTabItem;
-    tlbCatergorias: TToolBar;
+    tlbCategorias: TToolBar;
     Label16: TLabel;
     btnCategoriasVoltar: TSpeedButton;
     btnCategoriaAdicionar: TSpeedButton;
@@ -245,6 +245,7 @@ type
     LinkControlToField3: TLinkControlToField;
     LinkControlToField4: TLinkControlToField;
     LinkControlToField5: TLinkControlToField;
+    lblAppName: TLabel;
     procedure btnAcessarClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure item_menu_lancClick(Sender: TObject);
@@ -519,6 +520,28 @@ begin
           Key := 0;
 
         end;
+
+        if TabControl.ActiveTab = TabMain then
+        begin
+          // Saindo
+          MessageDlg('Deseja realmente sair ?', System.UITypes.TMsgDlgType.mtConfirmation,
+          [
+            System.UITypes.TMsgDlgBtn.mbYes,
+            System.UITypes.TMsgDlgBtn.mbNo
+          ], 0,
+          procedure(const AResult: System.UITypes.TModalResult)
+          begin
+            case AResult of
+              mrYES:
+                begin
+                  Application.Terminate;
+                end;
+            end;
+          end);
+
+
+        end;
+
         if (TabControl.ActiveTab = TabCategoria)  or
            (TabControl.ActiveTab = TabLancamentos) or
            (TabControl.ActiveTab = TabPerfil)
@@ -545,13 +568,6 @@ begin
         end;
         // Ignore(Cancel) button pressed
 
-        if TabControl.ActiveTab = TabMain then
-        begin
-          // Saindo
-          //TODO : Perguntar
-          Application.Terminate;
-
-        end;
 
     end;
   end;
@@ -1080,7 +1096,6 @@ begin
       dm.qry_banco.Active     := false;
       dm.qry_lancamento.Active:= false;
 
-      dm.qry_categoria.Active := true;
       dm.qry_banco.Active     := true;
       dm.qry_lancamento.Active:= true;
 
@@ -1100,6 +1115,9 @@ begin
       btnCadExcluir.Visible := False;
 
       //TODO : Fazer filtro de categorias somente de débito
+      dm.qry_categoria.SQL.Clear;
+      dm.qry_categoria.SQL.Add('SELECT * FROM TAB_CATEGORIA C WHERE C.TIPO_CATEGORIA=''D''');
+      dm.qry_categoria.Active := true;
 
       ActLancamentoCad.ExecuteTarget(Sender);
 end;
@@ -1109,7 +1127,6 @@ begin
       dm.qry_categoria.Active := false;
       dm.qry_banco.Active     := false;
       dm.qry_lancamento.Active:= false;
-      dm.qry_categoria.Active := true;
       dm.qry_banco.Active     := true;
       dm.qry_lancamento.Active:= true;
 
@@ -1129,6 +1146,9 @@ begin
       btnCadExcluir.Visible := False;
 
       //TODO : Fazer filtro de categorias somente de crédito
+      dm.qry_categoria.SQL.Clear;
+      dm.qry_categoria.SQL.Add('SELECT * FROM TAB_CATEGORIA C WHERE C.TIPO_CATEGORIA=''C''');
+      dm.qry_categoria.Active := true;
 
       ActLancamentoCad.ExecuteTarget(Sender);
 
@@ -1187,6 +1207,8 @@ begin
 
       // Atualiza a lista de categorias
       dm.qry_categoria.Active := false;
+      dm.qry_categoria.SQL.Clear;
+      dm.qry_categoria.SQL.Add('SELECT * FROM TAB_CATEGORIA');
       dm.qry_categoria.Active := true;
 
       //Esconde o  Menu Multiview

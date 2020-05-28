@@ -22,9 +22,6 @@ Coordinates=688,414,113,36
 [Label13]
 Coordinates=584,232,60,58
 
-[Rectangle3]
-Coordinates=400,414,80,36
-
 [Layout5]
 Coordinates=330,414,60,36
 
@@ -45,9 +42,6 @@ Coordinates=157,414,64,36
 
 [Image1]
 Coordinates=874,232,57,58
-
-[ListBox1]
-Coordinates=60,70,139,212
 
 [ToolBar2]
 Coordinates=80,414,67,36
@@ -73,9 +67,6 @@ Coordinates=10,300,79,58
 
 [Layout2]
 Coordinates=594,368,60,36
-
-[Image2]
-Coordinates=340,300,57,58
 
 [MultiView]
 Coordinates=514,368,70,36
@@ -560,6 +551,15 @@ Coordinates=1313,71,136,58
 [edtConta]
 Coordinates=1030,1060,67,58
 
-[tlbCatergorias]
+[tlbCategorias]
 Coordinates=997,300,67,36
+
+[rctMtvLogo]
+Coordinates=400,414,80,36
+
+[imgMtvLogo]
+Coordinates=340,300,57,58
+
+[lstMenu]
+Coordinates=60,70,139,212
 

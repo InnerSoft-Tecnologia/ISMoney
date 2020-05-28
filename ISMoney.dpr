@@ -18,3 +18,4 @@ begin
   Application.CreateForm(Tdm, dm);
   Application.Run;
 end.
+
